@@ -1,0 +1,21 @@
+name: covariance
+channels:
+  - conda-forge
+dependencies:
+  - ipython
+  - pytest
+  - pytest-cov
+  - codecov
+  - coverage
+  - pylint
+  - black
+  - numpy
+  - sympy
+  - uncertainties
+  - pint
+  - unyt
+  - wrapt
+  - python-box
+  - clifford
+  - pip:
+    - galgebra
