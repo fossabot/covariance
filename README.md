@@ -2,13 +2,15 @@
 
 # covariance (pre-α)
 
-[![Release](https://img.shields.io/github/release/replanck/covariance.svg)](https://github.com/replanck/covariance/releases)
+[![PyPI](https://img.shields.io/pypi/v/covariance.svg)](https://pypi.org/project/covariance)
 [![Docs](https://readthedocs.org/projects/covariance/badge/)](http://covariance.readthedocs.io/en/stable/)
+[![License](https://img.shields.io/github/license/replanck/covariance.svg?color=blue)](LICENSE)
+[![Code style: black](https://img.shields.io/badge/code%20style-black-000000.svg)](https://github.com/ambv/black) \
 [![Build Status](https://travis-ci.org/replanck/covariance.svg?branch=develop)](https://travis-ci.org/replanck/covariance)
+[![Coverage Status](https://coveralls.io/repos/github/replanck/covariance/badge.svg?branch=master)](https://coveralls.io/github/replanck/covariance?branch=master)
 [![codecov](https://codecov.io/gh/replanck/covariance/branch/master/graph/badge.svg)](https://codecov.io/gh/replanck/covariance)
 [![Maintainability](https://api.codeclimate.com/v1/badges/73bb356e40549d86b1c9/maintainability)](https://codeclimate.com/github/replanck/covariance/maintainability)
 [![Test Coverage](https://api.codeclimate.com/v1/badges/73bb356e40549d86b1c9/test_coverage)](https://codeclimate.com/github/replanck/covariance/test_coverage)
-
 
 </div>
 

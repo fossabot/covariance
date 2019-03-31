@@ -25,10 +25,11 @@ install:
   - source activate travis_environment
 
 script:
-  - ./cc-test-reporter before-build
+  # - ./cc-test-reporter before-build
   - pytest tests/ -svx -ra --cov=covariance
-  - ./cc-test-reporter after-build --coverage-input-type coverage.py --exit-code $?
+  # - ./cc-test-reporter after-build --coverage-input-type coverage.py --exit-code $?
 
 after_success:
   - codecov
+  - coveralls
   - black . --check
