@@ -1,6 +1,6 @@
 <div align="center">
 
-# covariance
+# covariance (pre-α)
 
 [![Release](https://img.shields.io/github/release/replanck/covariance.svg)](https://github.com/replanck/covariance/releases)
 [![Docs](https://readthedocs.org/projects/covariance/badge/)](http://covariance.readthedocs.io/en/stable/)
@@ -12,10 +12,14 @@
 
 </div>
 
+## Features
+
+UNDER CONSTRUCTION
+
 
 ## Documentation
 
-Our user guide is at [covariance.readthedocs.io](http://covariance.readthedocs.io/).
+See [covariance.readthedocs.io](http://covariance.readthedocs.io/) for documentation.
 
 
 ## Installation
@@ -23,3 +27,22 @@ Our user guide is at [covariance.readthedocs.io](http://covariance.readthedocs.i
 ```bash
 pip install covariance
 ```
+
+
+## Development Environment
+
+We use a Conda environment for development/testing purposes. If you have Conda installed run the following to setup the `covariance` environment
+
+```bash
+conda env create -f environment.yml
+source activate covariance
+```
+
+For more information on Conda environments visit [docs.conda.io/projects/conda/en/latest/user-guide/tasks/manage-environments.html](https://docs.conda.io/projects/conda/en/latest/user-guide/tasks/manage-environments.html).
+
+
+## License
+
+This project is licensed under the [MIT Open Source License](LICENSE).
+
+Copyright (c) 2019 Brandon Gomes 
