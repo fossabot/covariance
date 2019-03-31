@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*- #
 #
-# covariance/abc.py
+# tests/hep/__init__.py
 #
 #
 # MIT License
@@ -27,19 +27,6 @@
 #
 
 """
-Covariance Abstract Base Classes.
+Covariance for HEP Testing Suite.
 
 """
-
-# -------------- Standard Library -------------- #
-
-from abc import ABC, abstractmethod
-
-# -------------- External Library -------------- #
-
-
-# ------------- Covariance Library ------------- #
-
-
-class Vector(ABC):
-    """"""

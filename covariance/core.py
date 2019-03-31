@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*- #
 #
-# covariance/abc.py
+# covariance/core.py
 #
 #
 # MIT License
@@ -27,19 +27,14 @@
 #
 
 """
-Covariance Abstract Base Classes.
+Covariance Core Library.
 
 """
 
 # -------------- Standard Library -------------- #
 
-from abc import ABC, abstractmethod
 
 # -------------- External Library -------------- #
 
 
 # ------------- Covariance Library ------------- #
-
-
-class Vector(ABC):
-    """"""
